@@ -1,0 +1,492 @@
+2018-03-26 14:33:45,087 [org.eclipse.jetty.util.log: 70] - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+2018-03-26 14:33:45,090 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + SocketConnector@0.0.0.0:8080 STOPPED as connector
+2018-03-26 14:33:45,410 [org.eclipse.jetty.util.log: 70] - Container o.e.j.w.WebAppContext{/,null} + org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579 as error
+2018-03-26 14:33:45,411 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar as handler
+2018-03-26 14:33:45,412 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 14:33:45,413 [org.eclipse.jetty.util.log: 55] - jetty-7.x.y-SNAPSHOT
+2018-03-26 14:33:45,566 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + qtp1212899836{8<=0<=0/254,-1} as threadpool
+2018-03-26 14:33:45,567 [org.eclipse.jetty.util.log: 70] - starting o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:33:45,632 [org.eclipse.jetty.util.log: 70] - Thread Context class loader is: WebAppClassLoader=1365202186@515f550a
+2018-03-26 14:33:45,633 [org.eclipse.jetty.util.log: 70] - Parent class loader is: sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 14:33:45,633 [org.eclipse.jetty.util.log: 70] - Parent class loader is: sun.misc.Launcher$ExtClassLoader@626b2d4a
+2018-03-26 14:33:45,634 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5e91993f
+2018-03-26 14:33:45,674 [org.eclipse.jetty.util.log: 70] - Set temp dir C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-
+2018-03-26 14:33:45,682 [org.eclipse.jetty.util.log: 70] - Try webapp=file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar, exists=true, directory=false
+2018-03-26 14:33:45,691 [org.eclipse.jetty.util.log: 55] - Extract jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/ to C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-\webapp
+2018-03-26 14:33:45,692 [org.eclipse.jetty.util.log: 70] - Extract jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/ to C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-\webapp
+2018-03-26 14:33:45,697 [org.eclipse.jetty.util.log: 70] - Extracting entry = null from jar file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:34:56,397 [org.eclipse.jetty.util.log: 70] - webapp=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/
+2018-03-26 14:34:56,398 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@6f75e721
+2018-03-26 14:34:57,625 [org.eclipse.jetty.util.log: 70] - parse: jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml
+2018-03-26 14:34:57,635 [org.eclipse.jetty.util.log: 70] - parsing: sid=jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml,pid=null
+2018-03-26 14:34:57,851 [org.eclipse.jetty.util.log: 70] - jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml: Calculated metadatacomplete = True with version=2.5
+2018-03-26 14:34:57,852 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@4aa8f0b4
+2018-03-26 14:34:57,852 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@7960847b
+2018-03-26 14:34:57,853 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@6a6824be
+2018-03-26 14:34:57,853 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@5c8da962
+2018-03-26 14:34:57,956 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5e91993f
+2018-03-26 14:34:57,958 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@6f75e721
+2018-03-26 14:34:57,967 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@4aa8f0b4
+2018-03-26 14:34:57,968 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@7960847b
+2018-03-26 14:34:57,968 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@6a6824be
+2018-03-26 14:34:57,969 [org.eclipse.jetty.util.log: 70] - Configuring web-jetty.xml
+2018-03-26 14:34:57,970 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@5c8da962
+2018-03-26 14:34:57,971 [org.eclipse.jetty.util.log: 70] - metadata resolve o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:34:57,988 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 14:34:57,989 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 14:34:57,989 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 14:34:57,990 [org.eclipse.jetty.util.log: 70] - servletPathMap={/=default}
+2018-03-26 14:34:57,990 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default}
+2018-03-26 14:34:57,995 [org.eclipse.jetty.util.log: 70] - loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 14:34:58,003 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 14:34:58,003 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 14:34:58,003 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 14:34:58,004 [org.eclipse.jetty.util.log: 70] - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /=default}
+2018-03-26 14:34:58,004 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default, jsp=jsp}
+2018-03-26 14:34:58,087 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@2ed94a8b + default as servlet
+2018-03-26 14:34:58,088 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@2ed94a8b + jsp as servlet
+2018-03-26 14:34:58,089 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@2ed94a8b + [/]=>default as servletMapping
+2018-03-26 14:34:58,090 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@2ed94a8b + [*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]=>jsp as servletMapping
+2018-03-26 14:34:58,090 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64 + org.eclipse.jetty.servlet.ServletHandler@2ed94a8b as handler
+2018-03-26 14:34:58,091 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.session.SessionHandler@dfd3711 + org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64 as handler
+2018-03-26 14:34:58,091 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.session.SessionHandler@dfd3711 + org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b as sessionManager
+2018-03-26 14:34:58,091 [org.eclipse.jetty.util.log: 70] - Container o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar + org.eclipse.jetty.server.session.SessionHandler@dfd3711 as handler
+2018-03-26 14:34:58,092 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.SessionHandler@dfd3711
+2018-03-26 14:34:58,092 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 14:34:58,095 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + org.eclipse.jetty.server.session.HashSessionIdManager@13fee20c as sessionIdManager
+2018-03-26 14:34:58,096 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.HashSessionIdManager@13fee20c
+2018-03-26 14:34:58,115 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.HashSessionIdManager@13fee20c
+2018-03-26 14:34:58,119 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 14:34:58,120 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64
+2018-03-26 14:34:58,122 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ServletHandler@2ed94a8b
+2018-03-26 14:34:58,122 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 14:34:58,122 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 14:34:58,122 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 14:34:58,123 [org.eclipse.jetty.util.log: 70] - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /=default}
+2018-03-26 14:34:58,123 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default, jsp=jsp}
+2018-03-26 14:34:58,123 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ServletHandler@2ed94a8b
+2018-03-26 14:34:58,123 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.servlet.ServletHandler@2ed94a8b
+2018-03-26 14:34:58,124 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64
+2018-03-26 14:34:58,124 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64
+2018-03-26 14:34:58,124 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.SessionHandler@dfd3711
+2018-03-26 14:34:58,124 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.SessionHandler@dfd3711
+2018-03-26 14:34:58,124 [org.eclipse.jetty.util.log: 70] - starting o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:34:58,125 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 14:34:58,125 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 14:34:58,125 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 14:34:58,127 [org.eclipse.jetty.util.log: 55] - started o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:34:58,127 [org.eclipse.jetty.util.log: 70] - starting jsp
+2018-03-26 14:34:58,128 [org.eclipse.jetty.util.log: 70] - loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 14:34:58,128 [org.eclipse.jetty.util.log: 70] - Holding class org.apache.jasper.servlet.JspServlet
+2018-03-26 14:34:58,208 [org.eclipse.jetty.util.log: 70] - STARTED jsp
+2018-03-26 14:34:58,208 [org.eclipse.jetty.util.log: 70] - starting default
+2018-03-26 14:34:58,209 [org.eclipse.jetty.util.log: 70] - loaded class org.eclipse.jetty.servlet.DefaultServlet
+2018-03-26 14:34:58,210 [org.eclipse.jetty.util.log: 70] - loaded class org.eclipse.jetty.servlet.DefaultServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 14:34:58,211 [org.eclipse.jetty.util.log: 70] - Holding class org.eclipse.jetty.servlet.DefaultServlet
+2018-03-26 14:34:58,217 [org.eclipse.jetty.util.log: 70] - ignoring resource cache configuration, using resourceCache attribute
+2018-03-26 14:34:58,218 [org.eclipse.jetty.util.log: 70] - Cache resourceCache=null
+2018-03-26 14:34:58,222 [org.eclipse.jetty.util.log: 70] - resource base = null
+2018-03-26 14:34:58,222 [org.eclipse.jetty.util.log: 70] - STARTED default
+2018-03-26 14:34:58,223 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5e91993f
+2018-03-26 14:34:58,224 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@6f75e721
+2018-03-26 14:34:58,224 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@4aa8f0b4
+2018-03-26 14:34:58,225 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@7960847b
+2018-03-26 14:34:58,226 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@6a6824be
+2018-03-26 14:34:58,226 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@5c8da962
+2018-03-26 14:34:58,227 [org.eclipse.jetty.util.log: 70] - STARTED o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:34:58,227 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 14:34:58,228 [org.eclipse.jetty.util.log: 70] - starting qtp1212899836{8<=0<=0/254,-1}
+2018-03-26 14:34:58,236 [org.eclipse.jetty.util.log: 70] - STARTED qtp1212899836{8<=7<=8/254,0}
+2018-03-26 14:34:58,236 [org.eclipse.jetty.util.log: 70] - starting SocketConnector@0.0.0.0:8080 STOPPED
+2018-03-26 14:34:58,328 [org.eclipse.jetty.util.log: 55] - Started SocketConnector@0.0.0.0:8080 STARTING
+2018-03-26 14:34:58,329 [org.eclipse.jetty.util.log: 70] - STARTED SocketConnector@0.0.0.0:8080 STARTED
+2018-03-26 14:34:58,329 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 14:35:17,523 [org.eclipse.jetty.util.log: 70] - REQUEST / on org.eclipse.jetty.server.HttpConnection@4b182662@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:53460
+2018-03-26 14:35:17,524 [org.eclipse.jetty.util.log: 70] - scope null||/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:35:17,524 [org.eclipse.jetty.util.log: 70] - context=||/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:35:17,524 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 14:35:17,524 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 14:35:17,525 [org.eclipse.jetty.util.log: 70] - servlet |/|null -> default
+2018-03-26 14:35:17,525 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 14:35:17,527 [org.eclipse.jetty.util.log: 70] - Resource /=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/
+2018-03-26 14:35:17,527 [org.eclipse.jetty.util.log: 70] - uri=/ resource=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/ content
+2018-03-26 14:35:17,530 [org.eclipse.jetty.util.log: 70] - Resource /index.html=null
+2018-03-26 14:35:17,531 [org.eclipse.jetty.util.log: 70] - Resource /index.htm=null
+2018-03-26 14:35:17,533 [org.eclipse.jetty.util.log: 70] - Resource /index.jsp=null
+2018-03-26 14:35:17,555 [org.eclipse.jetty.util.log: 70] - RESPONSE /  200
+2018-03-26 14:35:17,637 [org.eclipse.jetty.util.log: 70] - REQUEST /jetty-dir.css on org.eclipse.jetty.server.HttpConnection@4b182662@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:53460
+2018-03-26 14:35:17,637 [org.eclipse.jetty.util.log: 70] - scope null||/jetty-dir.css @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:35:17,638 [org.eclipse.jetty.util.log: 70] - context=||/jetty-dir.css @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:35:17,639 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 14:35:17,639 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 14:35:17,640 [org.eclipse.jetty.util.log: 70] - servlet |/jetty-dir.css|null -> default
+2018-03-26 14:35:17,640 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 14:35:17,647 [org.eclipse.jetty.util.log: 70] - Resource /jetty-dir.css.gz=null
+2018-03-26 14:35:17,653 [org.eclipse.jetty.util.log: 70] - Resource /jetty-dir.css=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/jetty-dir.css
+2018-03-26 14:35:17,655 [org.eclipse.jetty.util.log: 70] - uri=/jetty-dir.css resource=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/jetty-dir.css content
+2018-03-26 14:35:17,657 [org.eclipse.jetty.util.log: 70] - RESPONSE /jetty-dir.css  200
+2018-03-26 14:35:45,268 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@4a0533b0@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:53464
+2018-03-26 14:35:45,268 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@7ed67c99@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:53461
+2018-03-26 14:35:45,268 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@3f4c07f0@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:53462
+2018-03-26 14:35:45,268 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@70802fe9@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:53463
+2018-03-26 14:37:02,191 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@4b182662@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:53460
+2018-03-26 14:43:45,962 [org.eclipse.jetty.util.log: 70] - REQUEST /.options on org.eclipse.jetty.server.HttpConnection@3069eab7@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58026
+2018-03-26 14:43:45,964 [org.eclipse.jetty.util.log: 70] - scope null||/.options @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:43:45,965 [org.eclipse.jetty.util.log: 70] - context=||/.options @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:43:45,965 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 14:43:45,966 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 14:43:45,967 [org.eclipse.jetty.util.log: 70] - servlet |/.options|null -> default
+2018-03-26 14:43:45,967 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 14:43:45,976 [org.eclipse.jetty.util.log: 70] - Resource /.options.gz=null
+2018-03-26 14:43:45,984 [org.eclipse.jetty.util.log: 70] - Resource /.options=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/.options
+2018-03-26 14:43:45,986 [org.eclipse.jetty.util.log: 70] - uri=/.options resource=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/.options content
+2018-03-26 14:43:45,989 [org.eclipse.jetty.util.log: 70] - RESPONSE /.options  200
+2018-03-26 14:43:51,520 [org.eclipse.jetty.util.log: 70] - REQUEST /images/ on org.eclipse.jetty.server.HttpConnection@3069eab7@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58026
+2018-03-26 14:43:51,521 [org.eclipse.jetty.util.log: 70] - scope null||/images/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:43:51,521 [org.eclipse.jetty.util.log: 70] - context=||/images/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:43:51,521 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 14:43:51,521 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 14:43:51,522 [org.eclipse.jetty.util.log: 70] - servlet |/images/|null -> default
+2018-03-26 14:43:51,522 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 14:43:51,524 [org.eclipse.jetty.util.log: 70] - Resource /images/=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/images/
+2018-03-26 14:43:51,525 [org.eclipse.jetty.util.log: 70] - uri=/images/ resource=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/images/ content
+2018-03-26 14:43:51,528 [org.eclipse.jetty.util.log: 70] - Resource /images/index.html=null
+2018-03-26 14:43:51,532 [org.eclipse.jetty.util.log: 70] - Resource /images/index.htm=null
+2018-03-26 14:43:51,535 [org.eclipse.jetty.util.log: 70] - Resource /images/index.jsp=null
+2018-03-26 14:43:51,538 [org.eclipse.jetty.util.log: 70] - RESPONSE /images/  200
+2018-03-26 14:43:51,593 [org.eclipse.jetty.util.log: 70] - REQUEST /images/jetty-dir.css on org.eclipse.jetty.server.HttpConnection@3069eab7@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58026
+2018-03-26 14:43:51,594 [org.eclipse.jetty.util.log: 70] - scope null||/images/jetty-dir.css @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:43:51,595 [org.eclipse.jetty.util.log: 70] - context=||/images/jetty-dir.css @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:43:51,595 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 14:43:51,596 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 14:43:51,596 [org.eclipse.jetty.util.log: 70] - servlet |/images/jetty-dir.css|null -> default
+2018-03-26 14:43:51,596 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 14:43:51,604 [org.eclipse.jetty.util.log: 70] - Resource /images/jetty-dir.css.gz=null
+2018-03-26 14:43:51,611 [org.eclipse.jetty.util.log: 70] - Resource /images/jetty-dir.css=null
+2018-03-26 14:43:51,622 [org.eclipse.jetty.util.log: 70] - uri=/images/jetty-dir.css resource=jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/jetty-dir.css content
+2018-03-26 14:43:51,624 [org.eclipse.jetty.util.log: 70] - RESPONSE /images/jetty-dir.css  200
+2018-03-26 14:43:53,047 [org.eclipse.jetty.util.log: 70] - REQUEST /images/ant_logo_large.gif on org.eclipse.jetty.server.HttpConnection@3069eab7@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58026
+2018-03-26 14:43:53,048 [org.eclipse.jetty.util.log: 70] - scope null||/images/ant_logo_large.gif @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:43:53,048 [org.eclipse.jetty.util.log: 70] - context=||/images/ant_logo_large.gif @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 14:43:53,048 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 14:43:53,048 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 14:43:53,048 [org.eclipse.jetty.util.log: 70] - servlet |/images/ant_logo_large.gif|null -> default
+2018-03-26 14:43:53,049 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 14:43:53,052 [org.eclipse.jetty.util.log: 70] - Resource /images/ant_logo_large.gif.gz=null
+2018-03-26 14:43:53,055 [org.eclipse.jetty.util.log: 70] - Resource /images/ant_logo_large.gif=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/images/ant_logo_large.gif
+2018-03-26 14:43:53,056 [org.eclipse.jetty.util.log: 70] - uri=/images/ant_logo_large.gif resource=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/images/ant_logo_large.gif content
+2018-03-26 14:43:53,058 [org.eclipse.jetty.util.log: 70] - RESPONSE /images/ant_logo_large.gif  200
+2018-03-26 14:43:58,201 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@42dbc69f@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58028
+2018-03-26 14:43:58,201 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@3e828e35@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58029
+2018-03-26 14:43:58,202 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@3feb76a2@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58030
+2018-03-26 14:44:10,858 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@eb99ba5@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58033
+2018-03-26 14:44:10,858 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@b38398b@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:58034
+2018-03-26 15:17:53,286 [org.eclipse.jetty.util.log: 70] - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+2018-03-26 15:17:53,289 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + SocketConnector@0.0.0.0:8080 STOPPED as connector
+2018-03-26 15:17:53,324 [org.eclipse.jetty.util.log: 70] - Container o.e.j.w.WebAppContext{/,null} + org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579 as error
+2018-03-26 15:17:53,325 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar as handler
+2018-03-26 15:17:53,325 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 15:17:53,325 [org.eclipse.jetty.util.log: 55] - jetty-7.x.y-SNAPSHOT
+2018-03-26 15:17:53,342 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + qtp1212899836{8<=0<=0/254,-1} as threadpool
+2018-03-26 15:17:53,342 [org.eclipse.jetty.util.log: 70] - starting o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:17:53,348 [org.eclipse.jetty.util.log: 70] - Thread Context class loader is: WebAppClassLoader=1365202186@515f550a
+2018-03-26 15:17:53,349 [org.eclipse.jetty.util.log: 70] - Parent class loader is: sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:17:53,349 [org.eclipse.jetty.util.log: 70] - Parent class loader is: sun.misc.Launcher$ExtClassLoader@626b2d4a
+2018-03-26 15:17:53,349 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5e91993f
+2018-03-26 15:18:00,250 [org.eclipse.jetty.util.log: 70] - Set temp dir C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-
+2018-03-26 15:18:00,253 [org.eclipse.jetty.util.log: 70] - Try webapp=file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar, exists=true, directory=false
+2018-03-26 15:18:00,255 [org.eclipse.jetty.util.log: 55] - Extract jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/ to C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-\webapp
+2018-03-26 15:18:00,256 [org.eclipse.jetty.util.log: 70] - Extract jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/ to C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-\webapp
+2018-03-26 15:18:00,257 [org.eclipse.jetty.util.log: 70] - Extracting entry = null from jar file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:19:17,712 [org.eclipse.jetty.util.log: 70] - webapp=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/
+2018-03-26 15:19:17,713 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@6f75e721
+2018-03-26 15:19:17,726 [org.eclipse.jetty.util.log: 70] - parse: jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml
+2018-03-26 15:19:17,728 [org.eclipse.jetty.util.log: 70] - parsing: sid=jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml,pid=null
+2018-03-26 15:19:17,741 [org.eclipse.jetty.util.log: 70] - jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml: Calculated metadatacomplete = True with version=2.5
+2018-03-26 15:19:17,742 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@4aa8f0b4
+2018-03-26 15:19:17,743 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@7960847b
+2018-03-26 15:19:17,743 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@6a6824be
+2018-03-26 15:19:17,743 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@5c8da962
+2018-03-26 15:19:17,752 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5e91993f
+2018-03-26 15:19:17,753 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@6f75e721
+2018-03-26 15:19:17,756 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@4aa8f0b4
+2018-03-26 15:19:17,756 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@7960847b
+2018-03-26 15:19:17,757 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@6a6824be
+2018-03-26 15:19:17,757 [org.eclipse.jetty.util.log: 70] - Configuring web-jetty.xml
+2018-03-26 15:19:17,757 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@5c8da962
+2018-03-26 15:19:17,758 [org.eclipse.jetty.util.log: 70] - metadata resolve o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:19:17,766 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 15:19:17,766 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 15:19:17,767 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 15:19:17,767 [org.eclipse.jetty.util.log: 70] - servletPathMap={/=default}
+2018-03-26 15:19:17,767 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default}
+2018-03-26 15:19:17,770 [org.eclipse.jetty.util.log: 70] - loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:19:17,776 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 15:19:17,777 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 15:19:17,777 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 15:19:17,777 [org.eclipse.jetty.util.log: 70] - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /=default}
+2018-03-26 15:19:17,777 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default, jsp=jsp}
+2018-03-26 15:19:17,787 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@2ed94a8b + default as servlet
+2018-03-26 15:19:17,787 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@2ed94a8b + jsp as servlet
+2018-03-26 15:19:17,787 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@2ed94a8b + [/]=>default as servletMapping
+2018-03-26 15:19:17,787 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@2ed94a8b + [*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]=>jsp as servletMapping
+2018-03-26 15:19:17,787 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64 + org.eclipse.jetty.servlet.ServletHandler@2ed94a8b as handler
+2018-03-26 15:19:17,787 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.session.SessionHandler@dfd3711 + org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64 as handler
+2018-03-26 15:19:17,788 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.session.SessionHandler@dfd3711 + org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b as sessionManager
+2018-03-26 15:19:17,788 [org.eclipse.jetty.util.log: 70] - Container o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar + org.eclipse.jetty.server.session.SessionHandler@dfd3711 as handler
+2018-03-26 15:19:17,788 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.SessionHandler@dfd3711
+2018-03-26 15:19:17,788 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 15:19:17,789 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + org.eclipse.jetty.server.session.HashSessionIdManager@13fee20c as sessionIdManager
+2018-03-26 15:19:17,789 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.HashSessionIdManager@13fee20c
+2018-03-26 15:19:17,797 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.HashSessionIdManager@13fee20c
+2018-03-26 15:19:17,798 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 15:19:17,798 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64
+2018-03-26 15:19:17,799 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ServletHandler@2ed94a8b
+2018-03-26 15:19:17,799 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 15:19:17,799 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 15:19:17,799 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 15:19:17,799 [org.eclipse.jetty.util.log: 70] - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /=default}
+2018-03-26 15:19:17,800 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default, jsp=jsp}
+2018-03-26 15:19:17,800 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ServletHandler@2ed94a8b
+2018-03-26 15:19:17,800 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.servlet.ServletHandler@2ed94a8b
+2018-03-26 15:19:17,800 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64
+2018-03-26 15:19:17,800 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.security.ConstraintSecurityHandler@38082d64
+2018-03-26 15:19:17,800 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.SessionHandler@dfd3711
+2018-03-26 15:19:17,800 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.SessionHandler@dfd3711
+2018-03-26 15:19:17,800 [org.eclipse.jetty.util.log: 70] - starting o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:19:17,801 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 15:19:17,801 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 15:19:17,801 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 15:19:17,802 [org.eclipse.jetty.util.log: 55] - started o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:19:17,803 [org.eclipse.jetty.util.log: 70] - starting jsp
+2018-03-26 15:19:17,803 [org.eclipse.jetty.util.log: 70] - loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:19:17,803 [org.eclipse.jetty.util.log: 70] - Holding class org.apache.jasper.servlet.JspServlet
+2018-03-26 15:19:17,816 [org.eclipse.jetty.util.log: 70] - STARTED jsp
+2018-03-26 15:19:17,816 [org.eclipse.jetty.util.log: 70] - starting default
+2018-03-26 15:19:17,818 [org.eclipse.jetty.util.log: 70] - loaded class org.eclipse.jetty.servlet.DefaultServlet
+2018-03-26 15:19:17,819 [org.eclipse.jetty.util.log: 70] - loaded class org.eclipse.jetty.servlet.DefaultServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:19:17,819 [org.eclipse.jetty.util.log: 70] - Holding class org.eclipse.jetty.servlet.DefaultServlet
+2018-03-26 15:19:17,821 [org.eclipse.jetty.util.log: 70] - ignoring resource cache configuration, using resourceCache attribute
+2018-03-26 15:19:17,821 [org.eclipse.jetty.util.log: 70] - Cache resourceCache=null
+2018-03-26 15:19:17,822 [org.eclipse.jetty.util.log: 70] - resource base = null
+2018-03-26 15:19:17,822 [org.eclipse.jetty.util.log: 70] - STARTED default
+2018-03-26 15:19:17,822 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5e91993f
+2018-03-26 15:19:17,822 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@6f75e721
+2018-03-26 15:19:17,823 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@4aa8f0b4
+2018-03-26 15:19:17,823 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@7960847b
+2018-03-26 15:19:17,823 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@6a6824be
+2018-03-26 15:19:17,823 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@5c8da962
+2018-03-26 15:19:17,823 [org.eclipse.jetty.util.log: 70] - STARTED o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:19:17,823 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 15:19:17,823 [org.eclipse.jetty.util.log: 70] - starting qtp1212899836{8<=0<=0/254,-1}
+2018-03-26 15:19:17,826 [org.eclipse.jetty.util.log: 70] - STARTED qtp1212899836{8<=7<=8/254,0}
+2018-03-26 15:19:17,826 [org.eclipse.jetty.util.log: 70] - starting SocketConnector@0.0.0.0:8080 STOPPED
+2018-03-26 15:19:17,842 [org.eclipse.jetty.util.log: 55] - Started SocketConnector@0.0.0.0:8080 STARTING
+2018-03-26 15:19:17,842 [org.eclipse.jetty.util.log: 70] - STARTED SocketConnector@0.0.0.0:8080 STARTED
+2018-03-26 15:19:17,842 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 15:24:07,504 [org.eclipse.jetty.util.log: 70] - REQUEST / on org.eclipse.jetty.server.HttpConnection@44bbca17@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22469
+2018-03-26 15:24:07,504 [org.eclipse.jetty.util.log: 70] - scope null||/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:24:07,505 [org.eclipse.jetty.util.log: 70] - context=||/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:24:07,505 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 15:24:07,505 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 15:24:07,505 [org.eclipse.jetty.util.log: 70] - servlet |/|null -> default
+2018-03-26 15:24:07,505 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 15:24:07,507 [org.eclipse.jetty.util.log: 70] - Resource /=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/
+2018-03-26 15:24:07,508 [org.eclipse.jetty.util.log: 70] - uri=/ resource=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/ content
+2018-03-26 15:24:07,509 [org.eclipse.jetty.util.log: 70] - Resource /index.html=null
+2018-03-26 15:24:07,511 [org.eclipse.jetty.util.log: 70] - Resource /index.htm=null
+2018-03-26 15:24:07,512 [org.eclipse.jetty.util.log: 70] - Resource /index.jsp=null
+2018-03-26 15:24:07,522 [org.eclipse.jetty.util.log: 70] - RESPONSE /  200
+2018-03-26 15:24:30,232 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@7ed67c99@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22470
+2018-03-26 15:24:30,233 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@5146b0c8@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22471
+2018-03-26 15:24:30,245 [org.eclipse.jetty.util.log: 70] - REQUEST /service/test on org.eclipse.jetty.server.HttpConnection@44bbca17@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22469
+2018-03-26 15:24:30,245 [org.eclipse.jetty.util.log: 70] - scope null||/service/test @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:24:30,246 [org.eclipse.jetty.util.log: 70] - context=||/service/test @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:24:30,246 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 15:24:30,246 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 15:24:30,246 [org.eclipse.jetty.util.log: 70] - servlet |/service/test|null -> default
+2018-03-26 15:24:30,246 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 15:24:30,249 [org.eclipse.jetty.util.log: 70] - Resource /service/test.gz=null
+2018-03-26 15:24:30,251 [org.eclipse.jetty.util.log: 70] - Resource /service/test=null
+2018-03-26 15:24:30,251 [org.eclipse.jetty.util.log: 70] - uri=/service/test resource=null
+2018-03-26 15:24:30,252 [org.eclipse.jetty.util.log: 70] - RESPONSE /service/test  404
+2018-03-26 15:24:41,868 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@47ddd409@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22484
+2018-03-26 15:24:41,869 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@3feb76a2@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22485
+2018-03-26 15:24:41,872 [org.eclipse.jetty.util.log: 70] - REQUEST /service/test/available on org.eclipse.jetty.server.HttpConnection@44bbca17@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22469
+2018-03-26 15:24:41,873 [org.eclipse.jetty.util.log: 70] - scope null||/service/test/available @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:24:41,873 [org.eclipse.jetty.util.log: 70] - context=||/service/test/available @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:24:41,873 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 15:24:41,873 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 15:24:41,873 [org.eclipse.jetty.util.log: 70] - servlet |/service/test/available|null -> default
+2018-03-26 15:24:41,874 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 15:24:41,877 [org.eclipse.jetty.util.log: 70] - Resource /service/test/available.gz=null
+2018-03-26 15:24:41,879 [org.eclipse.jetty.util.log: 70] - Resource /service/test/available=null
+2018-03-26 15:24:41,880 [org.eclipse.jetty.util.log: 70] - uri=/service/test/available resource=null
+2018-03-26 15:24:41,880 [org.eclipse.jetty.util.log: 70] - RESPONSE /service/test/available  404
+2018-03-26 15:24:56,833 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@28401afd@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22489
+2018-03-26 15:24:56,840 [org.eclipse.jetty.util.log: 70] - REQUEST /service/test/available/ on org.eclipse.jetty.server.HttpConnection@44bbca17@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22469
+2018-03-26 15:24:56,841 [org.eclipse.jetty.util.log: 70] - scope null||/service/test/available/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:24:56,842 [org.eclipse.jetty.util.log: 70] - context=||/service/test/available/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:24:56,842 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@42d3bd8b
+2018-03-26 15:24:56,843 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 15:24:56,843 [org.eclipse.jetty.util.log: 70] - servlet |/service/test/available/|null -> default
+2018-03-26 15:24:56,843 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 15:24:56,845 [org.eclipse.jetty.util.log: 70] - Resource /service/test/available/=null
+2018-03-26 15:24:56,845 [org.eclipse.jetty.util.log: 70] - uri=/service/test/available/ resource=null
+2018-03-26 15:24:56,847 [org.eclipse.jetty.util.log: 70] - RESPONSE /service/test/available/  404
+2018-03-26 15:26:21,313 [org.eclipse.jetty.util.log: 70] - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+2018-03-26 15:26:21,318 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + SocketConnector@0.0.0.0:8080 STOPPED as connector
+2018-03-26 15:26:21,341 [org.eclipse.jetty.util.log: 70] - Container o.e.j.w.WebAppContext{/,null} + org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579 as error
+2018-03-26 15:26:21,341 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar as handler
+2018-03-26 15:26:21,341 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 15:26:21,341 [org.eclipse.jetty.util.log: 55] - jetty-7.x.y-SNAPSHOT
+2018-03-26 15:26:21,353 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + qtp1212899836{8<=0<=0/254,-1} as threadpool
+2018-03-26 15:26:21,353 [org.eclipse.jetty.util.log: 70] - starting o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:26:21,361 [org.eclipse.jetty.util.log: 70] - Thread Context class loader is: WebAppClassLoader=1365202186@515f550a
+2018-03-26 15:26:21,361 [org.eclipse.jetty.util.log: 70] - Parent class loader is: sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:26:21,361 [org.eclipse.jetty.util.log: 70] - Parent class loader is: sun.misc.Launcher$ExtClassLoader@626b2d4a
+2018-03-26 15:26:21,361 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5e91993f
+2018-03-26 15:26:28,362 [org.eclipse.jetty.util.log: 70] - Set temp dir C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-
+2018-03-26 15:26:28,365 [org.eclipse.jetty.util.log: 70] - Try webapp=file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar, exists=true, directory=false
+2018-03-26 15:26:28,367 [org.eclipse.jetty.util.log: 55] - Extract jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/ to C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-\webapp
+2018-03-26 15:26:28,368 [org.eclipse.jetty.util.log: 70] - Extract jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/ to C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-\webapp
+2018-03-26 15:26:28,369 [org.eclipse.jetty.util.log: 70] - Extracting entry = null from jar file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:28:35,065 [org.eclipse.jetty.util.log: 70] - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+2018-03-26 15:28:35,066 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + SocketConnector@0.0.0.0:8080 STOPPED as connector
+2018-03-26 15:28:35,284 [org.eclipse.jetty.util.log: 70] - Container o.e.j.w.WebAppContext{/,null} + org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579 as error
+2018-03-26 15:28:35,285 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar as handler
+2018-03-26 15:28:35,454 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 15:28:35,455 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 15:28:35,455 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 15:28:35,456 [org.eclipse.jetty.util.log: 70] - servletPathMap={/*=org.glassfish.jersey.servlet.ServletContainer-1}
+2018-03-26 15:28:35,456 [org.eclipse.jetty.util.log: 70] - servletNameMap={org.glassfish.jersey.servlet.ServletContainer-1=org.glassfish.jersey.servlet.ServletContainer-1}
+2018-03-26 15:28:35,456 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 15:28:35,457 [org.eclipse.jetty.util.log: 55] - jetty-7.x.y-SNAPSHOT
+2018-03-26 15:28:35,493 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + qtp1993134103{8<=0<=0/254,-1} as threadpool
+2018-03-26 15:28:35,494 [org.eclipse.jetty.util.log: 70] - starting o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:28:35,531 [org.eclipse.jetty.util.log: 70] - Thread Context class loader is: WebAppClassLoader=1221555852@48cf768c
+2018-03-26 15:28:35,531 [org.eclipse.jetty.util.log: 70] - Parent class loader is: sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:28:35,532 [org.eclipse.jetty.util.log: 70] - Parent class loader is: sun.misc.Launcher$ExtClassLoader@59f95c5d
+2018-03-26 15:28:35,534 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,null},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5c8da962
+2018-03-26 15:28:40,600 [org.eclipse.jetty.util.log: 70] - Set temp dir C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-
+2018-03-26 15:28:40,603 [org.eclipse.jetty.util.log: 70] - Try webapp=file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar, exists=true, directory=false
+2018-03-26 15:28:40,605 [org.eclipse.jetty.util.log: 55] - Extract jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/ to C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-\webapp
+2018-03-26 15:28:40,606 [org.eclipse.jetty.util.log: 70] - Extract jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/ to C:\Users\spososh\AppData\Local\Temp\1\jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-\webapp
+2018-03-26 15:28:40,606 [org.eclipse.jetty.util.log: 70] - Extracting entry = null from jar file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:30:46,335 [org.eclipse.jetty.util.log: 70] - webapp=file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/
+2018-03-26 15:30:46,336 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@2437c6dc
+2018-03-26 15:30:46,350 [org.eclipse.jetty.util.log: 70] - parse: jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml
+2018-03-26 15:30:46,352 [org.eclipse.jetty.util.log: 70] - parsing: sid=jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml,pid=null
+2018-03-26 15:30:46,365 [org.eclipse.jetty.util.log: 70] - jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/org/eclipse/jetty/webapp/webdefault.xml: Calculated metadatacomplete = True with version=2.5
+2018-03-26 15:30:46,366 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@67f89fa3
+2018-03-26 15:30:46,366 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@4ac68d3e
+2018-03-26 15:30:46,366 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@277c0f21
+2018-03-26 15:30:46,366 [org.eclipse.jetty.util.log: 70] - preConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@6073f712
+2018-03-26 15:30:46,375 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5c8da962
+2018-03-26 15:30:46,376 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@2437c6dc
+2018-03-26 15:30:46,379 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@67f89fa3
+2018-03-26 15:30:46,379 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@4ac68d3e
+2018-03-26 15:30:46,379 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@277c0f21
+2018-03-26 15:30:46,380 [org.eclipse.jetty.util.log: 70] - Configuring web-jetty.xml
+2018-03-26 15:30:46,380 [org.eclipse.jetty.util.log: 70] - configure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@6073f712
+2018-03-26 15:30:46,380 [org.eclipse.jetty.util.log: 70] - metadata resolve o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:30:46,383 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 15:30:46,384 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 15:30:46,384 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 15:30:46,384 [org.eclipse.jetty.util.log: 70] - servletPathMap={/*=org.glassfish.jersey.servlet.ServletContainer-1, /=default}
+2018-03-26 15:30:46,384 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default, org.glassfish.jersey.servlet.ServletContainer-1=org.glassfish.jersey.servlet.ServletContainer-1}
+2018-03-26 15:30:46,387 [org.eclipse.jetty.util.log: 70] - loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,393 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 15:30:46,393 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 15:30:46,393 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 15:30:46,393 [org.eclipse.jetty.util.log: 70] - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /*=org.glassfish.jersey.servlet.ServletContainer-1, /=default}
+2018-03-26 15:30:46,393 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default, org.glassfish.jersey.servlet.ServletContainer-1=org.glassfish.jersey.servlet.ServletContainer-1, jsp=jsp}
+2018-03-26 15:30:46,403 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@3b81a1bc + org.glassfish.jersey.servlet.ServletContainer-1 as servlet
+2018-03-26 15:30:46,404 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@3b81a1bc + default as servlet
+2018-03-26 15:30:46,404 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@3b81a1bc + jsp as servlet
+2018-03-26 15:30:46,404 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@3b81a1bc + [/*]=>org.glassfish.jersey.servlet.ServletContainer-1 as servletMapping
+2018-03-26 15:30:46,404 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@3b81a1bc + [/]=>default as servletMapping
+2018-03-26 15:30:46,404 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.servlet.ServletHandler@3b81a1bc + [*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]=>jsp as servletMapping
+2018-03-26 15:30:46,404 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.security.ConstraintSecurityHandler@64616ca2 + org.eclipse.jetty.servlet.ServletHandler@3b81a1bc as handler
+2018-03-26 15:30:46,404 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.session.SessionHandler@13fee20c + org.eclipse.jetty.security.ConstraintSecurityHandler@64616ca2 as handler
+2018-03-26 15:30:46,405 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.session.SessionHandler@13fee20c + org.eclipse.jetty.server.session.HashSessionManager@4e04a765 as sessionManager
+2018-03-26 15:30:46,405 [org.eclipse.jetty.util.log: 70] - Container o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar + org.eclipse.jetty.server.session.SessionHandler@13fee20c as handler
+2018-03-26 15:30:46,405 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.SessionHandler@13fee20c
+2018-03-26 15:30:46,405 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.HashSessionManager@4e04a765
+2018-03-26 15:30:46,407 [org.eclipse.jetty.util.log: 70] - Container org.eclipse.jetty.server.Server@2b71fc7e + org.eclipse.jetty.server.session.HashSessionIdManager@1324409e as sessionIdManager
+2018-03-26 15:30:46,407 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.HashSessionIdManager@1324409e
+2018-03-26 15:30:46,418 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.HashSessionIdManager@1324409e
+2018-03-26 15:30:46,419 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.HashSessionManager@4e04a765
+2018-03-26 15:30:46,419 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.security.ConstraintSecurityHandler@64616ca2
+2018-03-26 15:30:46,421 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ServletHandler@3b81a1bc
+2018-03-26 15:30:46,421 [org.eclipse.jetty.util.log: 70] - filterNameMap={}
+2018-03-26 15:30:46,422 [org.eclipse.jetty.util.log: 70] - pathFilters=null
+2018-03-26 15:30:46,422 [org.eclipse.jetty.util.log: 70] - servletFilterMap=null
+2018-03-26 15:30:46,422 [org.eclipse.jetty.util.log: 70] - servletPathMap={*.jspx=jsp, *.JSPX=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspf=jsp, *.JSP=jsp, *.xsp=jsp, *.XSP=jsp, /*=org.glassfish.jersey.servlet.ServletContainer-1, /=default}
+2018-03-26 15:30:46,422 [org.eclipse.jetty.util.log: 70] - servletNameMap={default=default, org.glassfish.jersey.servlet.ServletContainer-1=org.glassfish.jersey.servlet.ServletContainer-1, jsp=jsp}
+2018-03-26 15:30:46,422 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ServletHandler@3b81a1bc
+2018-03-26 15:30:46,423 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.servlet.ServletHandler@3b81a1bc
+2018-03-26 15:30:46,423 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.security.ConstraintSecurityHandler@64616ca2
+2018-03-26 15:30:46,423 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.security.ConstraintSecurityHandler@64616ca2
+2018-03-26 15:30:46,423 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.session.SessionHandler@13fee20c
+2018-03-26 15:30:46,423 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.session.SessionHandler@13fee20c
+2018-03-26 15:30:46,423 [org.eclipse.jetty.util.log: 70] - starting o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:30:46,424 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 15:30:46,424 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 15:30:46,424 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.servlet.ErrorPageErrorHandler@1cf4f579
+2018-03-26 15:30:46,425 [org.eclipse.jetty.util.log: 55] - started o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:30:46,427 [org.eclipse.jetty.util.log: 70] - starting jsp
+2018-03-26 15:30:46,428 [org.eclipse.jetty.util.log: 70] - loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,428 [org.eclipse.jetty.util.log: 70] - Holding class org.apache.jasper.servlet.JspServlet
+2018-03-26 15:30:46,443 [org.eclipse.jetty.util.log: 70] - STARTED jsp
+2018-03-26 15:30:46,444 [org.eclipse.jetty.util.log: 70] - starting default
+2018-03-26 15:30:46,445 [org.eclipse.jetty.util.log: 70] - loaded class org.eclipse.jetty.servlet.DefaultServlet
+2018-03-26 15:30:46,445 [org.eclipse.jetty.util.log: 70] - loaded class org.eclipse.jetty.servlet.DefaultServlet from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,445 [org.eclipse.jetty.util.log: 70] - Holding class org.eclipse.jetty.servlet.DefaultServlet
+2018-03-26 15:30:46,448 [org.eclipse.jetty.util.log: 70] - ignoring resource cache configuration, using resourceCache attribute
+2018-03-26 15:30:46,448 [org.eclipse.jetty.util.log: 70] - Cache resourceCache=null
+2018-03-26 15:30:46,450 [org.eclipse.jetty.util.log: 70] - resource base = null
+2018-03-26 15:30:46,450 [org.eclipse.jetty.util.log: 70] - STARTED default
+2018-03-26 15:30:46,450 [org.eclipse.jetty.util.log: 70] - starting org.glassfish.jersey.servlet.ServletContainer-1
+2018-03-26 15:30:46,450 [org.eclipse.jetty.util.log: 70] - loaded class org.glassfish.jersey.servlet.ServletContainer from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,451 [org.eclipse.jetty.util.log: 70] - Holding class org.glassfish.jersey.servlet.ServletContainer
+2018-03-26 15:30:46,636 [org.eclipse.jetty.util.log: 70] - loaded class org.glassfish.jersey.server.filter.internal.ServerFiltersAutoDiscoverable from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,675 [org.eclipse.jetty.util.log: 70] - loaded class org.glassfish.jersey.servlet.async.AsyncContextDelegateProviderImpl from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,676 [org.eclipse.jetty.util.log: 70] - loaded class org.glassfish.jersey.servlet.init.FilterUrlMappingsProviderImpl from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,949 [org.eclipse.jetty.util.log: 70] - loaded class org.orphanware.embdjetty.rest.TestWebService from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,963 [org.eclipse.jetty.util.log: 70] - loaded class org.glassfish.jersey.server.wadl.internal.WadlAutoDiscoverable from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,963 [org.eclipse.jetty.util.log: 70] - loaded class org.glassfish.jersey.server.internal.monitoring.MonitoringAutodiscoverable from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:46,987 [org.eclipse.jetty.util.log: 70] - getResource(META-INF/services/javax.ws.rs.ext.RuntimeDelegate)=jar:file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar!/META-INF/services/javax.ws.rs.ext.RuntimeDelegate
+2018-03-26 15:30:46,988 [org.eclipse.jetty.util.log: 70] - loaded class org.glassfish.jersey.server.internal.RuntimeDelegateImpl from sun.misc.Launcher$AppClassLoader@5c647e05
+2018-03-26 15:30:47,367 [org.eclipse.jetty.util.log: 70] - STARTED org.glassfish.jersey.servlet.ServletContainer-1
+2018-03-26 15:30:47,367 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebInfConfiguration@5c8da962
+2018-03-26 15:30:47,367 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.WebXmlConfiguration@2437c6dc
+2018-03-26 15:30:47,367 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.MetaInfConfiguration@67f89fa3
+2018-03-26 15:30:47,368 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.FragmentConfiguration@4ac68d3e
+2018-03-26 15:30:47,368 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.JettyWebXmlConfiguration@277c0f21
+2018-03-26 15:30:47,368 [org.eclipse.jetty.util.log: 70] - postConfigure o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar with org.eclipse.jetty.webapp.TagLibConfiguration@6073f712
+2018-03-26 15:30:47,368 [org.eclipse.jetty.util.log: 70] - STARTED o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:30:47,368 [org.eclipse.jetty.util.log: 70] - starting org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 15:30:47,368 [org.eclipse.jetty.util.log: 70] - starting qtp1993134103{8<=0<=0/254,-1}
+2018-03-26 15:30:47,371 [org.eclipse.jetty.util.log: 70] - STARTED qtp1993134103{8<=7<=8/254,0}
+2018-03-26 15:30:47,371 [org.eclipse.jetty.util.log: 70] - starting SocketConnector@0.0.0.0:8080 STOPPED
+2018-03-26 15:30:47,384 [org.eclipse.jetty.util.log: 55] - Started SocketConnector@0.0.0.0:8080 STARTING
+2018-03-26 15:30:47,385 [org.eclipse.jetty.util.log: 70] - STARTED SocketConnector@0.0.0.0:8080 STARTED
+2018-03-26 15:30:47,385 [org.eclipse.jetty.util.log: 70] - STARTED org.eclipse.jetty.server.Server@2b71fc7e
+2018-03-26 15:34:44,594 [org.eclipse.jetty.util.log: 70] - REQUEST / on org.eclipse.jetty.server.HttpConnection@50ffd655@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22666
+2018-03-26 15:34:44,595 [org.eclipse.jetty.util.log: 70] - scope null||/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:34:44,595 [org.eclipse.jetty.util.log: 70] - context=||/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:34:44,595 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@4e04a765
+2018-03-26 15:34:44,595 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 15:34:44,596 [org.eclipse.jetty.util.log: 70] - servlet ||/ -> org.glassfish.jersey.servlet.ServletContainer-1
+2018-03-26 15:34:44,596 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 15:34:44,642 [org.eclipse.jetty.util.log: 70] - RESPONSE /  404
+2018-03-26 15:35:08,372 [org.eclipse.jetty.util.log: 70] - REQUEST / on org.eclipse.jetty.server.HttpConnection@50ffd655@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22666
+2018-03-26 15:35:08,373 [org.eclipse.jetty.util.log: 70] - scope null||/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:35:08,373 [org.eclipse.jetty.util.log: 70] - context=||/ @ o.e.j.w.WebAppContext{/,file:/C:/Users/spososh/AppData/Local/Temp/1/jetty-0.0.0.0-8080-embdjetty-1.0-jar-with-dependencies.jar-_-any-/webapp/},file:/C:/Work/JAVA/embdjetty/target/embdjetty-1.0-jar-with-dependencies.jar
+2018-03-26 15:35:08,373 [org.eclipse.jetty.util.log: 70] - sessionManager=org.eclipse.jetty.server.session.HashSessionManager@4e04a765
+2018-03-26 15:35:08,374 [org.eclipse.jetty.util.log: 70] - session=null
+2018-03-26 15:35:08,374 [org.eclipse.jetty.util.log: 70] - servlet ||/ -> org.glassfish.jersey.servlet.ServletContainer-1
+2018-03-26 15:35:08,374 [org.eclipse.jetty.util.log: 70] - chain=
+2018-03-26 15:35:08,378 [org.eclipse.jetty.util.log: 70] - RESPONSE /  404
+2018-03-26 16:30:29,308 [org.eclipse.jetty.util.log: 70] - closed org.eclipse.jetty.server.HttpConnection@50ffd655@0:0:0:0:0:0:0:1:8080<->0:0:0:0:0:0:0:1:22666

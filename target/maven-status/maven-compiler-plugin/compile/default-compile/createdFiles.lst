@@ -1,0 +1,3 @@
+org\orphanware\embdjetty\HttpServer.class
+org\orphanware\embdjetty\rest\MyPOJO.class
+org\orphanware\embdjetty\rest\TestWebService.class

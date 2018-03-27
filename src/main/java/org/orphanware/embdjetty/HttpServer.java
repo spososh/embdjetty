@@ -6,6 +6,9 @@ import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.bio.SocketConnector;
 import org.eclipse.jetty.webapp.WebAppContext;
+import org.eclipse.jetty.servlet.ServletContextHandler;
+import org.eclipse.jetty.servlet.ServletHolder;
+import org.glassfish.jersey.servlet.ServletContainer;
 
 class HttpServer {
 
@@ -36,6 +39,24 @@ class HttpServer {
         context.setWar(location.toExternalForm());
 
         server.setHandler(context);
+/////////////////////////////////////////////////////////////////////////////		
+		ServletHolder jerseyServlet = context.addServlet(ServletContainer.class, "/*");
+		jerseyServlet.setInitOrder(0);
+
+		// Tells the Jersey Servlet which REST service/class to load.
+		jerseyServlet.setInitParameter("jersey.config.server.provider.packages", "org.orphanware.embdjetty.rest");
+
+		try {
+		   server.start();
+		   server.join();
+		} catch (Exception e) {
+		   e.printStackTrace();
+		   System.exit(100);
+		} finally {
+		   server.destroy();
+		}
+/////////////////////////////////////////////////////////////////////////////		
+/*
         try {
             server.start();
             System.in.read();
@@ -45,6 +66,6 @@ class HttpServer {
             e.printStackTrace();
             System.exit(100);
         }
-
+*/
     }
 }
